@@ -1,7 +1,9 @@
 
-### Objective: The Transformer model aims to translate a given source sequence (English) into a target sequence (German).
+### Objective:
+The Transformer model aims to translate a given source sequence (English) into a target sequence (German).
 
-### Training Data: It trains on (source sentence, target sentence) pairs extracted from a corpus. For example, a pair might be "A group of people are standing on a beach." (English) and "Eine Gruppe von Leuten steht an einem Strand." (German). The model learns to predict the likelihood of each target word given the source sentence and previously predicted target words.
+### Training Data:
+It trains on (source sentence, target sentence) pairs extracted from a corpus. For example, a pair might be "A group of people are standing on a beach." (English) and "Eine Gruppe von Leuten steht an einem Strand." (German). The model learns to predict the likelihood of each target word given the source sentence and previously predicted target words.
 
 ### Architecture:
 - Input & Output Embeddings: Converts tokens (words) into dense vector representations.
